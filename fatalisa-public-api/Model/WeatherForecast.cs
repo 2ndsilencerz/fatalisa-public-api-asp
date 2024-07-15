@@ -1,4 +1,4 @@
-namespace fatalisa_public_api
+namespace fatalisa_public_api.Model
 {
     public class WeatherForecast
     {

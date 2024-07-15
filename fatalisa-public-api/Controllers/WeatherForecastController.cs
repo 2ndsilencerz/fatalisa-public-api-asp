@@ -1,3 +1,4 @@
+using fatalisa_public_api.Model;
 using Microsoft.AspNetCore.Mvc;
 
 namespace fatalisa_public_api.Controllers

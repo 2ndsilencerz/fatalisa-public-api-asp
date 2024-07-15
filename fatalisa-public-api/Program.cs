@@ -1,4 +1,6 @@
 
+using fatalisa_public_api.Services;
+
 namespace fatalisa_public_api
 {
     public class Program
@@ -13,6 +15,8 @@ namespace fatalisa_public_api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddScoped<CommonService>();
+            builder.Services.AddScoped<HealthService>();
 
             var app = builder.Build();
 
